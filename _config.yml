@@ -15,7 +15,7 @@ baseurl: "/envs3311"
 style:
   theme: sage          # light | sage | ocean | warm | contrast | dark | auto
   font: source-sans     # system | inter | source-sans | lato | nunito | merriweather | source-serif | lora | georgia
-  heading_font: source-serif
+  heading_font: source-sans
   font_size: 18px       # e.g. 16px, 17px, 18px, 20px
 
 markdown: kramdown
