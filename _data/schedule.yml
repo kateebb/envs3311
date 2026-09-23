@@ -1,0 +1,30 @@
+# One entry per class meeting. Leave fields blank ("") if unused.
+# "slides" and "notes" can be full URLs or site paths like /lectures/01-introduction/
+- week: 1
+  date: "Jan 12"
+  topic: "Introduction & course overview"
+  notes: /lectures/01-introduction/
+  slides: ""
+  reading: "Chapter 1"
+  due: ""
+- week: 1
+  date: "Jan 14"
+  topic: "Core concept A"
+  notes: /lectures/02-core-concept/
+  slides: ""
+  reading: "Chapter 2"
+  due: ""
+- week: 2
+  date: "Jan 19"
+  topic: "Core concept B"
+  notes: ""
+  slides: ""
+  reading: "Chapter 3"
+  due: "Homework 1"
+- week: 2
+  date: "Jan 21"
+  topic: "No class — holiday"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""

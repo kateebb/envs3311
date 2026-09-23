@@ -1,0 +1,19 @@
+# ---- Course settings: edit these first ----
+title: "ENVS 3311: Spatial Data Analysis for Public Health"
+tagline: "Investigating Environments, Exposures, and Wellbeing"
+term: "Spring 2027"
+instructor: "Kate Beach"
+email: "k.beach@bowdoin.edu"
+meeting: "Mon/Wed 10:05–11:30 · Room TBD"
+description: "Course website for ENVS 3311"
+
+# baseurl must match the repo name: repo "envs3311" -> baseurl "/envs3311"
+url: "https://kateebb.github.io"
+baseurl: "/envs3311"
+
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+exclude:
+  - README.md
