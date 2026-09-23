@@ -13,9 +13,9 @@ baseurl: "/envs3311"
 
 # ---- Site appearance ----
 style:
-  theme: warm          # light | sage | ocean | warm | contrast | dark | auto
+  theme: sage          # light | sage | ocean | warm | contrast | dark | auto
   font: source-sans     # system | inter | source-sans | lato | nunito | merriweather | source-serif | lora | georgia
-  heading_font: source-serif
+  heading_font: nunito
   font_size: 18px       # e.g. 16px, 17px, 18px, 20px
 
 markdown: kramdown
