@@ -1,42 +1,75 @@
-:root {
+/* ============================================================
+   THEMES — pick one in _config.yml (style: theme: ...)
+   To tweak a theme, change its colors below.
+   --bg page background   --surface header/cards/table headers
+   --text main text       --muted secondary text
+   --accent links/buttons --border lines   --due due-date highlight
+   ============================================================ */
+:root, [data-theme="light"] {
   --bg: #ffffff; --surface: #f5f6f8; --text: #1d2330; --muted: #5b6474;
   --accent: #2f5bd3; --border: #e1e4ea; --due: #b4480f;
 }
+[data-theme="sage"] {
+  --bg: #fafbf7; --surface: #eef2e8; --text: #1f2a22; --muted: #5a6659;
+  --accent: #2f6b4f; --border: #dde3d6; --due: #a4461d;
+}
+[data-theme="ocean"] {
+  --bg: #f8fbfc; --surface: #e8f1f4; --text: #13262e; --muted: #50656e;
+  --accent: #0b6e79; --border: #d3e2e7; --due: #b4480f;
+}
+[data-theme="warm"] {
+  --bg: #fcfaf6; --surface: #f4eee4; --text: #2a221b; --muted: #6b5f53;
+  --accent: #a4461d; --border: #e7dfd2; --due: #8a2f5b;
+}
+[data-theme="contrast"] {
+  --bg: #ffffff; --surface: #f0f0f0; --text: #000000; --muted: #333333;
+  --accent: #0040c1; --border: #8a8a8a; --due: #a10000;
+}
+[data-theme="dark"] {
+  --bg: #14161b; --surface: #1d2027; --text: #e6e8ec; --muted: #9aa3b2;
+  --accent: #7ea2ff; --border: #2c3039; --due: #ff9a5c;
+}
+/* "auto" = light normally, dark when the visitor's device is in dark mode */
 @media (prefers-color-scheme: dark) {
-  :root {
+  [data-theme="auto"] {
     --bg: #14161b; --surface: #1d2027; --text: #e6e8ec; --muted: #9aa3b2;
     --accent: #7ea2ff; --border: #2c3039; --due: #ff9a5c;
   }
 }
+
+/* ============================================================
+   LAYOUT & TYPE (fonts and size come from _config.yml)
+   ============================================================ */
 * { box-sizing: border-box; }
 body { margin: 0; background: var(--bg); color: var(--text);
-  font: 17px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  font-family: var(--font-body, system-ui, sans-serif);
+  font-size: var(--font-size, 17px); line-height: 1.6; }
+h1, h2, h3, h4, .brand { font-family: var(--font-heading, inherit); line-height: 1.25; }
 a { color: var(--accent); }
 .wrap { max-width: 920px; margin: 0 auto; padding: 0 16px; }
 
 .site-header { border-bottom: 1px solid var(--border); background: var(--surface); }
 .site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 16px; padding: 14px 16px; }
 .brand { font-weight: 700; text-decoration: none; color: var(--text); }
-.term { color: var(--muted); font-size: 14px; }
+.term { color: var(--muted); font-size: 0.82em; }
 nav { margin-left: auto; display: flex; flex-wrap: wrap; gap: 4px; }
-nav a { text-decoration: none; color: var(--muted); padding: 4px 10px; border-radius: 6px; font-size: 15px; }
+nav a { text-decoration: none; color: var(--muted); padding: 4px 10px; border-radius: 6px; font-size: 0.88em; }
 nav a:hover, nav a.active { color: var(--text); background: var(--border); }
 
 main { padding: 32px 16px 48px; }
-h1, h2, h3 { line-height: 1.25; }
 h2 { margin-top: 2em; border-bottom: 1px solid var(--border); padding-bottom: 4px; }
 
-.hero h1 { font-size: 2.2rem; margin-bottom: 0.2em; }
-.lead { font-size: 1.2rem; margin: 0; }
+.hero h1 { font-size: 2.1em; margin-bottom: 0.2em; }
+.lead { font-size: 1.2em; margin: 0; }
 .meta { color: var(--muted); }
 
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 12px; }
 .card { display: flex; flex-direction: column; padding: 16px; border: 1px solid var(--border);
   border-radius: 10px; background: var(--surface); text-decoration: none; color: var(--text); }
-.card span { color: var(--muted); font-size: 14px; }
+.card span { color: var(--muted); font-size: 0.82em; }
 .card:hover { border-color: var(--accent); }
 
-table { width: 100%; border-collapse: collapse; font-size: 15px; }
+table { width: 100%; border-collapse: collapse; font-size: 0.9em; }
 th, td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--border); vertical-align: top; }
 th { background: var(--surface); }
 .table-scroll { overflow-x: auto; }
@@ -45,12 +78,12 @@ th { background: var(--surface); }
 .due { color: var(--due); font-weight: 600; }
 
 pre { background: var(--surface); border: 1px solid var(--border); padding: 12px; border-radius: 8px; overflow-x: auto; }
-code { font-size: 0.92em; }
+code { font-size: 0.9em; }
 
 .staff { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; }
 .person { display: flex; gap: 14px; padding: 16px; border: 1px solid var(--border); border-radius: 10px; }
 .person img, .avatar { width: 64px; height: 64px; border-radius: 50%; object-fit: cover; flex-shrink: 0; }
 .avatar { display: grid; place-items: center; background: var(--accent); color: var(--bg); font-size: 26px; font-weight: 700; }
-.role, .hours { color: var(--muted); font-size: 14px; }
+.role, .hours { color: var(--muted); font-size: 0.82em; }
 
-.site-footer { color: var(--muted); font-size: 14px; border-top: 1px solid var(--border); padding: 20px 16px 40px; }
+.site-footer { color: var(--muted); font-size: 0.82em; border-top: 1px solid var(--border); padding: 20px 16px 40px; }
