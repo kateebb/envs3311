@@ -3,7 +3,7 @@ layout: default
 title: Schedule
 ---
 
-Edit `_data/schedule.yml` to update this table. Schedule is subject to change.
+Schedule is subject to change.
 
 <div class="table-scroll">
 <table class="schedule">
