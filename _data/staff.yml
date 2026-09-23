@@ -3,8 +3,4 @@
   email: "k.beach@bowdoin.edu"
   hours: "TBD"
   photo: ""        # e.g. /assets/img/you.jpg
-- name: "Assistant Name"
-  role: "Teaching Assistant"
-  email: "ta@example.com"
-  hours: "Mon 1–2pm, Lab B"
-  photo: ""
+
