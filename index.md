@@ -40,3 +40,7 @@ layout: default
   <a class="card" href="{{ '/staff/' | relative_url }}"><strong>Office hours</strong><span>Who to ask and when</span></a>
   
 </div>
+
+## Disclosure
+
+The formatting and structure of this course website was created with the assistance of Claude Opus 5.5. 
