@@ -26,7 +26,7 @@
   due: ""
 - week: 2
   date: "Wed Feb 3"
-  topic: "Exploratory spatial data analysis"
+  topic: "Intro to exploratory spatial data analysis"
   notes: ""
   slides: ""
   reading: ""
@@ -49,14 +49,14 @@
 # ---------- Unit 2: Mapping and exposure ----------
 - week: 4
   date: "Mon Feb 15"
-  topic: ""
+  topic: "Measuring exposures: extracting values"
   notes: ""
   slides: ""
   reading: ""
-  due: "Lab 2"
+  due: "Lab 2 - ESDA"
 - week: 4
   date: "Wed Feb 17"
-  topic: ""
+  topic: "Zonal statistics"
   notes: ""
   slides: ""
   reading: ""
