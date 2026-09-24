@@ -1,6 +1,233 @@
 # ENVS 3311 · Spring 2027 · Mon/Wed · Jan 25 – May 12
 # 28 class meetings. No class Mar 12–28 (spring break).
 # notes/slides: a full URL or a site path like /lectures/01-introduction/
+#
+# UNIT BANNERS: add a "unit:" line to the FIRST class of a unit and a banner
+# appears above that row on the Schedule page. "unit_desc:" (optional) adds a
+# short description under the banner. To move a banner, move those lines.
+
+- week: 1
+  unit: "Unit 1: Working with Spatial Data"
+  unit_desc: "Getting set up, visualizing, and wrangling spatial data"
+  date: "Mon Jan 25"
+  topic: "Course introduction & tech setup"
+  notes: /lectures/01-introduction/
+  slides: ""
+  reading: ""
+  due: ""
+- week: 1
+  date: "Wed Jan 27"
+  topic: "Visualizing spatial data"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 2
+  date: "Mon Feb 1"
+  topic: "Data wrangling"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 2
+  date: "Wed Feb 3"
+  topic: "Intro to exploratory spatial data analysis"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: "Lab 1 - Data viz"
+- week: 3
+  date: "Mon Feb 8"
+  topic: "Point pattern analysis"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 3
+  date: "Wed Feb 10"
+  topic: "Spatial autocorrelation I"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+
+- week: 4
+  unit: "Unit 2: Exploratory Spatial Data Analysis & Mapping"
+  unit_desc: "Spatial autocorrelation, measuring exposures, and zonal statistics"
+  date: "Mon Feb 15"
+  topic: "Spatial Autocorrelation II"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: "Lab 2 - ESDA"
+- week: 4
+  date: "Wed Feb 17"
+  topic: "Measuring exposures"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 5
+  date: "Mon Feb 22"
+  topic: "Zonal statistics"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 5
+  date: "Wed Feb 24"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: "Lab 3"
+- week: 6
+  date: "Mon Mar 1"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 6
+  date: "Wed Mar 3"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 7
+  date: "Mon Mar 8"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: "Lab 4"
+- week: 7
+  date: "Wed Mar 10"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: "Midterm"
+
+- week: "—"
+  type: break
+  date: "Mar 15 – 24"
+  topic: "Spring break: no class"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+
+- week: 8
+  unit: "Unit 3: Spatial Correlation"
+  unit_desc: ""
+  date: "Mon Mar 29"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 8
+  date: "Wed Mar 31"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 9
+  date: "Mon Apr 5"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 9
+  date: "Wed Apr 7"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: "Lab 5"
+- week: 10
+  date: "Mon Apr 12"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+
+- week: 10
+  unit: "Unit 4: Spatial Regression"
+  unit_desc: ""
+  date: "Wed Apr 14"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 11
+  date: "Mon Apr 19"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: "Lab 6"
+- week: 11
+  date: "Wed Apr 21"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 12
+  date: "Mon Apr 26"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 12
+  date: "Wed Apr 28"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+
+- week: 13
+  unit: "Final Projects"
+  unit_desc: ""
+  date: "Mon May 3"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 13
+  date: "Wed May 5"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 14
+  date: "Mon May 10"
+  topic: ""
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+- week: 14
+  date: "Wed May 12"
+  topic: "Course wrap-up"
+  notes: ""
+  slides: ""
+  reading: ""
+  due: ""
+# ENVS 3311 · Spring 2027 · Mon/Wed · Jan 25 – May 12
+# 28 class meetings. No class Mar 12–28 (spring break).
+# notes/slides: a full URL or a site path like /lectures/01-introduction/
 
 # ---------- Unit 1: Foundations ----------
 - week: 1
