@@ -41,6 +41,4 @@ layout: default
   
 </div>
 
-## Disclosure
-
-The formatting and structure of this course website was created with the assistance of Claude Opus 5.5. 
+**Disclosure:** The formatting and structure of this course website was created with the assistance of Claude Opus 5.5. 
