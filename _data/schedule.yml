@@ -40,7 +40,7 @@
   due: ""
 - week: 3
   date: "Wed Feb 10"
-  topic: "Spatial autocorrelation"
+  topic: "Spatial autocorrelation I"
   notes: ""
   slides: ""
   reading: ""
@@ -49,21 +49,21 @@
 # ---------- Unit 2: Mapping and exposure ----------
 - week: 4
   date: "Mon Feb 15"
-  topic: "Measuring exposures: extracting values"
+  topic: "Spatial Autocorrelation II"
   notes: ""
   slides: ""
   reading: ""
   due: "Lab 2 - ESDA"
 - week: 4
   date: "Wed Feb 17"
-  topic: "Zonal statistics"
+  topic: "Measuring exposures"
   notes: ""
   slides: ""
   reading: ""
   due: ""
 - week: 5
   date: "Mon Feb 22"
-  topic: ""
+  topic: "Zonal statistics"
   notes: ""
   slides: ""
   reading: ""
